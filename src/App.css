@@ -7,6 +7,10 @@
   pointer-events: none;
 }
 
+.theWholeWebStyle {
+  max-width: 80vw;
+}
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
@@ -35,4 +39,11 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.allProdContainerGrid {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  row-gap: 1.5em;
+  justify-content: space-between;
 }
